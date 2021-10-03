@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="purchase_confirmation" width="279" height="200" version="0.1" uid="5661E8F8-50CB-EF1A-8B04-C11B4A79260F">
+  <window>
+    <frame x="78" y="53" width="279" height="200" params="166145" style="0" caption="%24%7Bcatalog.purchase_confirmation.title%7D" color="0x418db0">
+      <children>
+        <border x="0" y="0" width="267" height="168" params="131216" style="0" caption="Confirm%20purchase">
+          <children>
+            <itemlist x="0" y="0" width="267" height="168" params="131089" style="0">
+              <children>
+                <container x="0" y="0" width="267" height="60" params="16" style="0" caption="Confirm%20purchase">
+                  <children>
+                    <border x="12" y="12" width="48" height="48" params="16" style="0" caption="Confirm%20purchase" color="0xf1f1f1">
+                      <children>
+                        <bitmap x="1" y="1" width="46" height="46" params="16" style="0" name="product_image" caption="Confirm%20purchase"/>
+                      </children>
+                    </border>
+                    <text x="69" y="29" width="184" height="17" params="16" style="0" name="product_name" caption="%24%7B001_lorem_ipsum_title%7D">
+                      <variables>
+                        <var key="font_face" value="Volter Bold" type="String"/>
+                        <var key="text_color" value="0x0" type="hex"/>
+                        <var key="embed_fonts" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                  </children>
+                </container>
+                <text x="0" y="65" width="246" height="16" params="16" style="0" name="purchase.cost" caption="%24%7Bcatalog.purchase.confirmation.dialog.costs%7D">
+                  <variables>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                    <var key="margin_left" value="10" type="int"/>
+                  </variables>
+                </text>
+                <text x="0" y="86" width="246" height="16" params="16" style="0" name="purchase.purse.amount" caption="%24%7Bcatalog.purchase.confirmation.dialog.amount%7D">
+                  <variables>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                    <var key="margin_left" value="10" type="int"/>
+                    <var key="auto_size" value="left" type="String"/>
+                  </variables>
+                </text>
+                <itemlist_horizontal x="8" y="107" width="250" height="25" params="131089" style="0" name="buttons" caption="Confirm%20purchase">
+                  <children>
+                    <button x="0" y="0" width="80" height="25" params="132113" style="0" name="buy_button" caption="%24%7Bcatalog.purchase_confirmation.buy%7D" width_min="80" width_max="80"/>
+                    <button x="85" y="0" width="80" height="25" params="132113" style="0" name="gift_button" caption="%24%7Bcatalog.purchase_confirmation.gift%7D" width_min="80" width_max="80"/>
+                    <button x="170" y="0" width="80" height="25" params="132113" style="0" name="cancel_button" caption="%24%7Bcatalog.purchase_confirmation.cancel%7D" width_min="80" width_max="80"/>
+                  </children>
+                  <variables>
+                    <var key="spacing" value="5" type="int"/>
+                  </variables>
+                </itemlist_horizontal>
+              </children>
+              <variables>
+                <var key="spacing" value="5" type="int"/>
+                <var key="scale_to_fit_items" value="true" type="Boolean"/>
+                <var key="resize_on_item_update" value="true" type="Boolean"/>
+              </variables>
+            </itemlist>
+          </children>
+        </border>
+      </children>
+    </frame>
+  </window>
+</layout>

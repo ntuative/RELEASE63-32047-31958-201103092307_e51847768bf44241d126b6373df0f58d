@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="QuestEngine" width="405" height="405" version="0.1" uid="17C772E8-52F0-CCC4-BCD8-7C6603654A05">
+  <window>
+    <frame x="0" y="0" width="405" height="405" params="106497" style="0" name="main" color="0x3e3e3e" width_min="405" width_max="405" height_min="405">
+      <children>
+        <border x="0" y="0" width="393" height="373" params="2193" style="0" name="content"/>
+      </children>
+    </frame>
+  </window>
+</layout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="purse_widget" width="181" height="33" version="0.1" uid="D2EEBBDA-9D4B-1F3A-B002-93E22432C664">
+  <window>
+    <border x="0" y="0" width="181" height="33" params="64" style="1">
+      <children>
+        <region x="0" y="0" width="90" height="32" params="17" style="0" name="credits_container" treshold="0">
+          <children>
+            <text x="9" y="7" width="43" height="21" params="262160" style="0" name="credits" caption="0000">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="left" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="16" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="51" y="8" width="18" height="22" params="16" style="0" name="credits_x" caption="x">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="14" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+              </variables>
+            </text>
+            <icon x="63" y="8" width="26" height="22" params="16" style="10" name="credit_icon"/>
+          </children>
+        </region>
+        <region x="91" y="0" width="90" height="32" params="17" style="0" name="pixels_container" treshold="0">
+          <children>
+            <text x="9" y="7" width="43" height="21" params="262160" style="0" name="pixels" caption="0000">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="left" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="16" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="51" y="8" width="18" height="22" params="16" style="0" name="pixels_x" caption="x">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="14" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+              </variables>
+            </text>
+            <icon x="63" y="8" width="26" height="22" params="16" style="19" name="pixel_icon"/>
+          </children>
+        </region>
+      </children>
+    </border>
+  </window>
+</layout>

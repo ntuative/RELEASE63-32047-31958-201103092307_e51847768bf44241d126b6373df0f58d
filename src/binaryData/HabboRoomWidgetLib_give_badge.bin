@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="give_badge" width="250" height="180" version="0.1" uid="B65B4BA7-1801-A568-010C-C6B5548E7376">
+  <window>
+    <frame x="0" y="0" width="250" height="180" params="32769" style="0" name="frame" caption="%24%7Binfostand.title.givebadge%7D" color="0x03e3e3e">
+      <children>
+        <border x="0" y="0" width="238" height="120" params="16" style="0" name="content" caption="Badges">
+          <children>
+            <itemgrid_vertical x="4" y="4" width="210" height="110" params="2193" style="0" name="list.badges" caption="Badges">
+              <variables>
+                <var key="spacing" value="2" type="int"/>
+                <var key="scale_to_fit_items" value="true" type="Boolean"/>
+              </variables>
+            </itemgrid_vertical>
+            <scrollbar_vertical x="216" y="4" width="17" height="110" params="17" style="0" caption="Badges" width_min="17" width_max="17">
+              <variables>
+                <var key="scrollable" value="list.badges" type="String"/>
+              </variables>
+            </scrollbar_vertical>
+          </children>
+        </border>
+        <button x="64" y="124" width="100" height="22" params="131089" style="0" name="button.give" caption="%24%7Binfostand.button.givebadge%7D" width_min="100" height_min="22"/>
+      </children>
+    </frame>
+  </window>
+</layout>

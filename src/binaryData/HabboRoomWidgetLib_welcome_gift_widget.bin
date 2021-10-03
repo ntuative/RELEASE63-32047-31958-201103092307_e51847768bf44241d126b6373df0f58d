@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="welcome_gift_widget" width="465" height="274" version="0.1" uid="C1528E09-A68C-ACAC-184F-9A3A1148D50E">
+  <window>
+    <frame x="0" y="0" width="465" height="274" params="33025" style="0" caption="%24%7Bwelcome.gift.window.title%7D" color="0xff418db0" width_min="465" width_max="465">
+      <filters>
+        <DropShadowFilter distance="4" alpha="0.34901960784313724" blurX="4" blurY="4"/>
+      </filters>
+      <children>
+        <container x="0" y="0" width="453" height="100" params="4194320" style="0" color="0xffffccddff" background="true" width_min="453" width_max="465">
+          <children>
+            <bitmap x="0" y="0" width="336" height="100" params="16" style="0" />
+            <text x="24" y="14" width="288" height="34" params="16" style="0" name="image_text" >
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="20" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </container>
+        <container x="0" y="109" width="453" height="128" params="12582928" style="0" name="state_content" width_min="453" width_max="453"/>
+      </children>
+    </frame>
+  </window>
+</layout>

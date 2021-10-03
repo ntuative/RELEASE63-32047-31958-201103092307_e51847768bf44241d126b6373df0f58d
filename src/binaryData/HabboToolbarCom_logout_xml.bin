@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="logout" width="86" height="13" version="0.1" uid="54040DBB-A45C-CABF-693A-5FBA250C536F">
+  <window>
+    <text x="0" y="0" width="86" height="13" params="65" style="0" name="logout_text" caption="%24%7Btoolbar.logout%7D" color="0x0" background="true" treshold="0">
+      <variables>
+        <var key="font_face" value="Volter Bold" type="String"/>
+        <var key="text_color" value="0xffffff" type="hex"/>
+        <var key="embed_fonts" value="true" type="Boolean"/>
+        <var key="auto_size" value="left" type="String"/>
+        <var key="underline" value="true" type="Boolean"/>
+      </variables>
+    </text>
+  </window>
+</layout>

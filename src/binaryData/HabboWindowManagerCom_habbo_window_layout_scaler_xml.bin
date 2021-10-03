@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout name="habbo_window_layout_scaler" width="15" height="15" version="0.0">
+	<window>
+		<shine x="0" y="0" width="14" height="14" style="1" tags="_EXCLUDE, _INTERNAL">
+			<params>
+				<param name="use_parent_graphic_context" />
+			</params>
+		</shine>
+	</window>
+</layout>

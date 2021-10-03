@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="welcome_gift_widget" width="453" height="200" version="0.1" uid="2D21F2F7-C0B5-B75D-173F-9B4359258893">
+  <window>
+    <container x="0" y="0" width="453" height="200" params="16" style="0">
+      <children>
+        <border x="0" y="0" width="453" height="150" params="8388624" style="0">
+          <children>
+            <text x="12" y="6" width="425" height="26" params="16" style="0" caption="%24%7Bwelcome.gift.opening.instructions.title%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="18" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="12" y="33" width="425" height="48" params="16" style="0" caption="%24%7Bwelcome.gift.opening.instructions%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="13" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <border x="9" y="90" width="435" height="45" params="16" style="2" color="0x0ccddff">
+              <children>
+                <bitmap x="8" y="6" width="33" height="33" params="16" style="0" name="email_icon"/>
+                <text x="43" y="12" width="350" height="24" params="16" style="0" name="email">
+                  <variables>
+                    <var key="antialias_type" value="advanced" type="String"/>
+                    <var key="font_face" value="Ubuntu" type="String"/>
+                    <var key="font_size" value="16" type="uint"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                    <var key="bold" value="true" type="Boolean"/>
+                    <var key="kerning" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <region x="288" y="14" width="140" height="20" params="262161" style="0" name="edit" treshold="0">
+                  <children>
+                    <text x="0" y="0" width="135" height="17" params="12582928" style="0" caption="%24%7Bwelcome.gift.email.edit%7D">
+                      <variables>
+                        <var key="antialias_type" value="advanced" type="String"/>
+                        <var key="auto_size" value="left" type="String"/>
+                        <var key="font_face" value="Ubuntu" type="String"/>
+                        <var key="font_size" value="12" type="uint"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="underline" value="true" type="Boolean"/>
+                        <var key="kerning" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                  </children>
+                </region>
+              </children>
+            </border>
+          </children>
+        </border>
+        <region x="6" y="162" width="120" height="33" params="1041" style="0" name="close" treshold="0">
+          <children>
+            <text x="0" y="8" width="120" height="22" params="16" style="0" name="close" caption="%24%7Bwelcome.gift.close%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="underline" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </region>
+        <button_thick x="313" y="164" width="130" height="30" params="132113" style="5" name="open" caption="%24%7Bwelcome.gift.open%7D" color="0x0cc00" width_min="130"/>
+      </children>
+    </container>
+  </window>
+</layout>

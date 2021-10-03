@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="QuestEngineCampaigns" width="405" height="520" version="0.1" uid="E45B6B94-CA1D-B220-395B-94EF9A74BCC3">
+  <window>
+    <frame x="0" y="0" width="405" height="520" params="106497" style="0" name="main" color="0x03e3e3e" width_min="405" width_max="405" height_min="425">
+      <children>
+        <tab_context x="0" y="0" width="393" height="488" params="2192" style="0" name="campaigns"/>
+        <container x="0" y="20" width="393" height="468" params="2193" style="0" name="content"/>
+      </children>
+    </frame>
+  </window>
+</layout>

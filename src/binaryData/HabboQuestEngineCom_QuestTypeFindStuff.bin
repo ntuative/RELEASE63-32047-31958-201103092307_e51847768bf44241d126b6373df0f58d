@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="QuestEngine" width="208" height="365" version="0.1" uid="6A51F529-007D-2EA9-9EC8-7C6C63391872">
+  <window>
+    <container x="0" y="0" width="208" height="365" params="2065" style="0" name="quest.container.findstuff">
+      <children>
+        <background x="0" y="0" width="208" height="27" params="16" style="0" name="quest.header" color="0xffffcaeef3" background="true">
+          <children>
+            <bitmap x="0" y="0" width="208" height="27" params="16" style="0" name="quest.header.img"/>
+            <text x="0" y="2" width="208" height="14" params="16" style="0" name="quest.header.title" color="0x00">
+              <variables>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="12" width="208" height="14" params="16" style="0" name="quest.header.short" color="0x00">
+              <variables>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </background>
+        <scrollable_itemlist_vertical x="0" y="32" width="208" height="205" params="2065" style="0" name="quest.content.itemlist">
+          <children>
+            <text x="0" y="0" width="208" height="50" params="16" style="0" name="quest.description" height_min="50">
+              <variables>
+                <var key="margin_left" value="5" type="int"/>
+                <var key="margin_right" value="5" type="int"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <bitmap x="0" y="50" width="208" height="114" params="16" style="0" name="quest.image" height_min="114"/>
+            <text x="0" y="164" width="208" height="40" params="16" style="0" name="quest.requirement" height_min="40">
+              <variables>
+                <var key="text_color" value="0x808080" type="hex"/>
+                <var key="margin_left" value="5" type="int"/>
+                <var key="margin_right" value="5" type="int"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </scrollable_itemlist_vertical>
+        <border x="0" y="245" width="208" height="60" params="1040" style="2" name="quest.reward.container" color="0xe0e0e0">
+          <children>
+            <border x="4" y="4" width="200" height="20" params="16" style="2" name="quest.reward.title.container" color="0x808080">
+              <children>
+                <text x="0" y="2" width="200" height="18" params="16" style="0" name="quest.reward.title" width_min="200">
+                  <variables>
+                    <var key="auto_size" value="center" type="String"/>
+                    <var key="font_face" value="Volter Bold" type="String"/>
+                    <var key="text_color" value="0xffffff" type="hex"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </border>
+              <html x="40" y="25" width="162" height="35" params="17" style="0" name="quest.reward.desc" caption="">
+                <variables>
+                  <var key="text_color" value="0x000000" type="hex"/>
+                  <var key="antialias_type" value="normal" type="String"/>
+                  <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+                  <var key="multiline" value="false" type="Boolean"/>
+                  <var key="word_wrap" value="true" type="Boolean"/>
+                  <var key="html_stylesheet" value="a:link {text-decoration: none;} a:hover {text-decoration: underline;}" type="String"/>
+                </variables>
+              </html>
+            <bitmap x="5" y="25" width="30" height="30" params="16" style="0" name="quest.reward.icon"/>
+          </children>
+        </border>
+        <border x="0" y="310" width="208" height="20" params="1040" style="2" name="quest.available.container" color="0x0808080">
+          <children>
+            <text x="0" y="3" width="208" height="20" params="16" style="0" name="quest.available" width_min="208">
+              <variables>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </border>
+          <border x="0" y="334" width="208" height="30" params="1040" style="2" name="quest.status.container" color="0x088ba30">
+            <children>
+              <button x="4" y="4" width="200" height="22" params="131089" style="0" name="quest.button.accept" caption="%24%7Bquest.accept%7D" width_min="200" height_min="22"/>
+              <text x="4" y="7" width="200" height="22" params="16" style="0" name="quest.status" caption="status" visible="false" width_min="200">
+                <variables>
+                  <var key="auto_size" value="center" type="String"/>
+                  <var key="font_face" value="Volter Bold" type="String"/>
+                  <var key="text_color" value="0xffffff" type="hex"/>
+                  <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                </variables>
+              </text>
+            </children>
+          </border>
+      </children>
+    </container>
+  </window>
+</layout>

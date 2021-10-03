@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<skin name="default_shine_skin" version="0.0">
+
+	<!-- shared variables -->
+	
+	<variables>
+		<variable key="asset" value="habbo_bitmap_skin_png" type="String" />
+	</variables>
+	
+	<!-- the following maps layouts for render states -->
+	
+	<states>
+		<state name="default" layout="frame_shine" template="default_frame_shine" />
+		<state name="default" layout="scaler_shine" template="default_scaler_shine" />
+		<state name="default" layout="header_shine" template="default_header_shine" />
+	</states>
+	
+	<!-- templates defines regions in bitmap asset -->
+	
+	<templates>
+		<template name="default_frame_shine" asset="$asset">
+			<entities>
+				<entity name="frame_top_left"      type="bitmap"><region><Rectangle x="59" y="1"  width="7" height="7" /></region></entity>
+				<entity name="frame_top_center"    type="bitmap"><region><Rectangle x="66" y="2"  width="1" height="1" /></region></entity>
+				<entity name="frame_top_right"     type="bitmap"><region><Rectangle x="77" y="1"  width="7" height="7" /></region></entity>
+				<entity name="frame_center_left"   type="bitmap"><region><Rectangle x="60" y="8"  width="1" height="1" /></region></entity>
+				<entity name="frame_center_right"  type="bitmap"><region><Rectangle x="82" y="8"  width="1" height="1" /></region></entity>
+				<entity name="frame_bottom_left"   type="bitmap"><region><Rectangle x="59" y="19" width="7" height="7" /></region></entity>
+				<entity name="frame_bottom_center" type="bitmap"><region><Rectangle x="66" y="24" width="1" height="1" /></region></entity>
+				<entity name="frame_bottom_right"  type="bitmap"><region><Rectangle x="78" y="20" width="6" height="6" /></region></entity>
+			</entities>
+		</template>
+		<template name="default_scaler_shine" asset="$asset">
+			<entities>
+				<entity name="scaler_bottom_right" type="bitmap"><region><Rectangle x="59" y="32" width="14" height="14" /></region></entity>
+			</entities>
+		</template>
+		<template name="default_header_shine" asset="$asset">
+			<entities>
+				<entity name="header_bottom_right" type="bitmap"><region><Rectangle x="401" y="16" width="6" height="15" /></region></entity>
+			</entities>
+		</template>
+	</templates>
+	
+	<!-- markup for layout drawer -->
+	
+	<layouts>
+	
+		<layout name="frame_shine" transparent="true" blendMode="add">
+			<entities>
+
+				<!-- top line -->
+	
+				<entity name="frame_top_left" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="0" y="0" width="7" height="7" /></region>
+					<scale horizontal="fixed" vertical="fixed" />
+				</entity>
+
+				<entity name="frame_top_center" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="7" y="1" width="11" height="1" /></region>
+					<scale horizontal="strech" vertical="fixed" />
+				</entity>
+
+				<entity name="frame_top_right" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="18" y="0" width="7" height="7" /></region>
+					<scale horizontal="move" vertical="fixed" />
+				</entity>
+				
+				<!-- mid line -->
+
+				<entity name="frame_center_left" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="1" y="7" width="1" height="20" /></region>
+					<scale horizontal="fixed" vertical="strech" />
+				</entity>
+
+				<entity name="frame_center_right" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="23" y="7" width="1" height="21" /></region>
+					<scale horizontal="move" vertical="strech" />
+				</entity>
+
+				<!-- btm line -->
+
+				<entity name="frame_bottom_left" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="0" y="27" width="7" height="7" /></region>
+					<scale horizontal="fixed" vertical="move" />
+				</entity>
+
+				<entity name="frame_bottom_center" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="7" y="32" width="12" height="1" /></region>
+					<scale horizontal="strech" vertical="move" />
+				</entity>
+
+				<entity name="frame_bottom_right" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="19" y="28" width="6" height="6" /></region>
+					<scale horizontal="move" vertical="move" />
+				</entity>
+			</entities>
+		</layout>
+		
+		<layout name="scaler_shine" transparent="true" blendMode="add">
+			<entities>
+				<entity name="scaler_bottom_right" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="0" y="0" width="14" height="14" /></region>
+					<scale horizontal="fixed" vertical="fixed" />
+				</entity>
+			</entities>
+		</layout>
+		
+		<layout name="header_shine" transparent="true" blendMode="add">
+			<entities>
+				<entity name="header_bottom_right" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="0" y="0" width="24" height="15" /></region>
+					<scale horizontal="tiled" vertical="fixed" />
+				</entity>
+			</entities>
+		</layout>
+	</layouts>
+</skin>
